@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 37%;
+    padding: 30px 40px;
+}
+#nav-1{
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+#nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#hero-img{
+    height:80%;
+    width:100%;
+    background-color: orangered;
+    background-image: url(https://images.pexels.com/photos/10164852/pexels-photo-10164852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+}
+#buttons{
+   display: flex; 
+   align-items: center;
+   justify-content: flex-end;
+   padding: 3px 6px;
+   position: fixed;
+   width:94%;
+  
+}
+#btn-8{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding:5px 10px;
+    border:1.5px solid black;
+    border-radius: 50px;
+    margin-left: 4px;
+
+}
+#btn-9{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding:4px 8px;
+    border-radius: 50px;
+    border:1.5px solid black;
+}
+#about{
+    margin-top: 24px;
+    font-size: 49px;
+    width:60%;
+    line-height: 54px;
+    font-weight: 700;
+    border-right: 2px solid black;
+    letter-spacing: -3.1px;
+   
+}
+#main-2{
+    display: flex; 
+   align-items: center;
+   justify-content: space-between;
+
+  
+}
+#About-2{
+    width:40%;
+    font-size: 22px;
+    font-weight: 600;
+    padding:5px 12px;
+    
+}
+#icons{
+    position: absolute;
+    bottom:-50%;
+    font-size: 16px;
+    left:61%;
+    margin-bottom:90px;
+}
+#main-3{
+    width:100%;
+    height:55%;
+    border-top: 1.5px solid black;
+    display: flex; 
+   align-items: center;
+   justify-content: space-between;
+}
+#Work-1{
+    width:80%;
+    height:90%;
+    border-right:1.5px solid black ;
+    font-size: 30px;
+   padding: 20px;
+}
+#Work-2{
+    width:80%;
+    height: 100%;
+    border-right: 1.5px solid black;
+    font-size: 22px;
+    padding: 22px;
+}
+#Folio{
+    display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1.5px solid black;
+   height:50%;
+   line-height: 20px;
+}
+#Work-3{
+    line-height: 19px;
+    font-size: 22px;
+    padding: 22px;
+  
+}
